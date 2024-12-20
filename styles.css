@@ -3,12 +3,21 @@ body {
     padding: 0;
 }
 
+.hamberger-menu{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
 .sidebar {
     height: 100vh;
     width: 220px;
     border: 1px solid #ccc;
-    background-color: #f2f2f2;
+    background-color: #fff;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    visibility: hidden;
 }
 
 .menu-iteam{
