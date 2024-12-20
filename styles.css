@@ -43,3 +43,10 @@ body {
     margin-left: 5px;
     font-size: 18px;
 }
+
+.close-menu{
+    text-align: right;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
